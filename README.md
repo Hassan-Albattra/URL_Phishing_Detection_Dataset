@@ -165,3 +165,5 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     _ = parser.parse_args()
     main()
+```
+ Run the above code using **`python preprocess_dataset.py`**
