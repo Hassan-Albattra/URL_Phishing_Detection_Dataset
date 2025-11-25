@@ -52,6 +52,12 @@ Building robust phishing-detection systems is challenging due to:
 - Severe class imbalance in real-world data  
 - Lack of open, reproducible datasets accompanying published research  
 
+Although the dataset sources differ from prior works, we ensure comparability by:
+
+- Using standard evaluation metrics (Accuracy, Precision, Recall, F1-score)  
+- Clearly documenting dataset size, class distribution, and sources  
+- Aligning evaluation methodology with common practices in the field  
+
 This dataset was created specifically to address these issues:
 
 ###  Clean, validated samples  
