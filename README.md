@@ -5,23 +5,41 @@
 
 ## Overview
 
-The **URL Phishing Detection Dataset** is a cleaned, structured, and research-ready dataset designed to support the development of machine learning, deep learning, and hybrid cybersecurity models. Phishing URLs remain one of the most widely used attack vectors for credential theft, financial scams, and social engineering attacks. Reliable predictive models require **large, diverse, and balanced datasets**, which are often difficult to obtain.
+To ensure robust model training and evaluation, we compiled a comprehensive dataset of **340,000 URLs** from multiple authoritative sources. The dataset is evenly divided into:
 
-This repository provides a **high-quality labeled dataset** containing verified legitimate URLs and real phishing samples, enabling researchers and practitioners to build effective phishing detection systems.
+- **170,000 phishing URLs**
+- **170,000 legitimate URLs**
+
+This balanced composition prevents class bias and ensures fair and reliable evaluation for machine learning (ML) and deep learning (DL) models.
+
+The dataset was collected **between January 2023 and December 2023**, ensuring that it reflects modern phishing techniques and evolving cyber-attack patterns.
 
 ---
 
-## Dataset Contents
+##  Dataset Files
 
-This repository includes the following CSV files:
+### **1. `balanced_urls.csv`**
+This file contains the **fully balanced dataset**, consisting of **170,000 phishing URLs** and **170,000 legitimate URLs**.  
+It is ideal for ML/DL experimentation where **class balance** is critical for preventing model bias.
 
-| File Name              | Description |
-|------------------------|-------------|
-| **balanced_urls.csv**  | A merged, class-balanced dataset containing legitimate and phishing URLs in equal proportions. Ideal for unbiased ML/DL model training. |
-| **legitimate_urls.csv** | A collection of verified safe URLs sourced from reputable domains and manually filtered to ensure accuracy. |
-| **phishing_urls.csv**  | A collection of real phishing URLs sourced from threat-intelligence feeds, cybersecurity reports, and OSINT repositories. |
+### **2. `legitimate_urls.csv`**
+Legitimate URLs were sourced from multiple high-quality, real-world web data repositories:
 
-Each file contains labeled samples ready for preprocessing, feature extraction, and model training.
+- **Alexa Top Sites** – High-traffic, globally ranked websites.
+- **Common Crawl** – A large-scale, continuously updated web corpus.
+
+These sources ensure:
+- Diversity across industries and domains  
+- Updated, real-world browsing behavior  
+- Reduction of accidental inclusion of unsafe or inactive URLs  
+
+### **3. `phishing_urls.csv`**
+Phishing URLs were collected from authoritative, frequently updated cybersecurity datasets:
+
+- **PhishTank** – Community-verified phishing submissions, manually validated by experts.
+- **OpenPhish** – A commercial automated feed of high-confidence phishing URLs discovered using proprietary algorithms.
+
+These sources are widely used in cybersecurity research and ensure a realistic representation of **active and modern phishing threats**.
 
 ---
 
