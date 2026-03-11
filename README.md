@@ -1,48 +1,5 @@
-Skip to content
-Hassan-Albattra
-URL_Phishing_Detection_Dataset
-Repository navigation
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-2
- (2)
-Insights
-Settings
-Commit a5948f5
-Hassan-Albattra
-Hassan-Albattra
-authored
-2 minutes ago
-Verified
-Update README.md
-main
-1 parent 
-035cbe1
- commit 
-a5948f5
-1 file changed
-+62
--150
-lines changed
-Search within code
- 
-‎README.md‎
-+62
--150
-Lines changed: 62 additions & 150 deletions
-
-
-Original file line number	Diff line number	Diff line change
-@@ -1,193 +1,105 @@
 # URL Phishing Detection Dataset  
 *A curated dataset for machine learning and deep learning–based phishing URL detection*
-# GuardedRAG — Safe Retrieval-Augmented Generation System
-
 ---
 ## Overview
 To ensure robust model training and evaluation, we compiled a comprehensive dataset of **340,000 URLs** from multiple authoritative sources. The dataset is evenly divided into:
